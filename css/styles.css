@@ -18,9 +18,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  min-width: 100vh;
-  padding: 7px 50px;
+  min-height: 100vh;
+  padding: 0 50px;
 }
 
 .component {
@@ -29,7 +28,7 @@ body {
   align-items: center;
   font-family: "Spartan", sans-serif;
   width: 1080px;
-  margin: 20px;
+  margin: 20px 10px;
 }
 
 .top-section {
@@ -46,7 +45,7 @@ body {
 }
 
 .text-heading {
-  font-size: 40px;
+  font-size: 39px;
   letter-spacing: -1.7px;
   line-height: 40px;
   color: hsl(300, 43%, 22%);
@@ -157,4 +156,72 @@ body {
   letter-spacing: 0.1px;
   margin-top: 14px;
   opacity: 0.85;
+}
+
+@media (max-width: 1045px) {
+  .component-container {
+    padding: 20px 0;
+  }
+
+  .component {
+    width: 400px;
+    margin: 20px 0;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .section-text {
+    width: 78%;
+    margin-bottom: 10px;
+  }
+
+  .text-heading {
+    margin-bottom: 25px;
+    font-size: 36px;
+  }
+
+  .text-paragraph {
+    font-size: 14px;
+  }
+
+  .ratings {
+    width: 400px;
+  }
+
+  .rating {
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 78%;
+    padding: 18px 20px 4px;
+  }
+
+  .rating-text {
+    margin-left: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 740px;
+  }
+
+  .review {
+    align-self: center;
+    width: 70%;
+  }
+
+  .review-text {
+    font-size: 13px;
+    line-height: 21px;
+  }
 }
