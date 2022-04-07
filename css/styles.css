@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .bold-text {
@@ -20,6 +21,12 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 0 50px;
+}
+
+.top-img {
+  position: absolute;
+  left: -230px;
+  z-index: -1;
 }
 
 .component {
@@ -156,6 +163,13 @@ body {
   letter-spacing: 0.1px;
   margin-top: 14px;
   opacity: 0.85;
+}
+
+.bottom-img {
+  position: absolute;
+  right: -75px;
+  height: 500px;
+  z-index: -1;
 }
 
 @media (max-width: 1045px) {
