@@ -174,12 +174,12 @@ body {
 
 @media (max-width: 1045px) {
   .component-container {
-    padding: 20px 0;
+    padding: 0;
   }
 
   .component {
-    width: 400px;
-    margin: 20px 0;
+    width: 350px;
+    margin: 35px 0;
   }
 
   .top-section {
@@ -204,7 +204,7 @@ body {
   }
 
   .ratings {
-    width: 400px;
+    width: 350px;
   }
 
   .rating {
@@ -213,7 +213,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 78%;
+    width: 74%;
     padding: 18px 20px 4px;
   }
 
@@ -226,12 +226,12 @@ body {
   .bottom-section {
     flex-direction: column;
     justify-content: space-between;
-    height: 740px;
+    height: 820px;
   }
 
   .review {
     align-self: center;
-    width: 70%;
+    width: 65%;
   }
 
   .review-text {
